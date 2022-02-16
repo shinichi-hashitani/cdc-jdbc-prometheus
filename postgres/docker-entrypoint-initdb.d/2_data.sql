@@ -1,0 +1,1 @@
+COPY users(name, age) FROM '/docker-entrypoint-initdb.d/users.csv' with csv
